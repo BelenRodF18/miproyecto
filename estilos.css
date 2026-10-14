@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #eef1f5; color: #222; }
+header { background: #1f3a5f; color: #fff; padding: 20px 16px; text-align: center; }
+header h1 { margin: 0 0 4px; }
+header p { margin: 0; }
+header a { color: #cfe0ff; }
+main { max-width: 1100px; margin: 20px auto; padding: 0 16px; }
+.tarjeta { background: #fff; border-radius: 8px; padding: 16px 20px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+.tarjeta h2 { margin-top: 0; color: #1f3a5f; }
+form { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; align-items: end; }
+label { display: flex; flex-direction: column; font-size: 14px; gap: 4px; }
+input, select { padding: 8px; border: 1px solid #b8c2cc; border-radius: 4px; font-size: 14px; }
+button, .boton { padding: 8px 14px; border: 0; border-radius: 4px; background: #2d6cdf; color: #fff; cursor: pointer; font-size: 14px; text-decoration: none; display: inline-block; }
+button.peligro { background: #c0392b; }
+.tabla { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { padding: 8px; border-bottom: 1px solid #e1e5ea; text-align: left; }
+th { background: #f3f5f8; }
+td.acciones { display: flex; gap: 6px; }
+td.acciones form { display: inline; }
+.mensaje { background: #dff3e4; border: 1px solid #9fd5ad; padding: 10px; border-radius: 4px; margin-bottom: 16px; }
+footer { text-align: center; color: #666; font-size: 13px; padding: 16px; }

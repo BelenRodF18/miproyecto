@@ -1,0 +1,12 @@
+# Seguridad básica de la aplicación (requiere AllowOverride All en el VirtualHost)
+
+# No mostrar el listado de archivos de las carpetas
+Options -Indexes
+
+# Bloquear archivos que no deben verse desde el navegador
+<FilesMatch "(\.sql|\.md|config\.example\.php)$">
+    Require all denied
+</FilesMatch>
+
+# Ocultar la carpeta .git del repositorio
+RedirectMatch 404 /\.git

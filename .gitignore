@@ -1,0 +1,4 @@
+# Credenciales: NUNCA se suben a GitHub
+config.php
+*.sql.gz
+*.tar.gz
