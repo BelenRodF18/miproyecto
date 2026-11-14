@@ -1,7 +1,7 @@
 <?php
 require 'conexion.php';
 
-$VERSION = '1.0';
+$VERSION = '1.1';
 $mensaje = '';
 
 // Registrar un equipo nuevo
